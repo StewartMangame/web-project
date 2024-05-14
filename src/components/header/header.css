@@ -1,0 +1,67 @@
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(175, 160, 160);
+    margin-bottom: 2px solid green;
+
+}
+.log{
+    width: 60px;
+    height: 40px;
+}
+/* p{
+    margin-right: 5cm;
+    font-weight: bold;
+    text-align: center;
+}
+p span{
+    color: green;
+}
+ul{
+    padding: 0;
+    list-style: none;
+    display: flex;
+    margin-right: 1cm;
+    align-items: center;
+    margin-left: 0cm;
+}
+ul li{
+    margin-left: 1cm;
+    display: flex;
+    font-weight: 600;
+}
+ul li:hover {
+    font-weight: 300;
+    color: green;
+    
+}
+button{
+    margin-right: 2cm;
+} */
+
+.logo_container_col1{
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo_container_col2{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav_list_iten{
+    margin-left: 1em;
+}
+
+.search_container{
+    display: flex;
+    align-items: center;
+}
+.search_input{
+    
+}
