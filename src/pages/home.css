@@ -1,0 +1,14 @@
+.news{
+    color: green;
+    text-underline-position: below;
+    padding: 0;
+margin: 0;
+
+} 
+.new{
+    background-color: rgb(226, 214, 214);;
+}
+.dic{
+    padding: 0;
+    margin: 0;
+}

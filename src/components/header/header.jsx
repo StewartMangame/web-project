@@ -2,6 +2,7 @@ import React from "react";
 import './header.css';
 import logo from './logo.png';
 import { NavLink } from "react-router-dom";
+import SearchIcon from '@mui/icons-material/Search';
 
 
 function Header() {
@@ -23,10 +24,14 @@ function Header() {
                     <NavLink className="nav_list_iten">subsidy-application</NavLink>
                 </ul>
                 <div className="search_container">
-                <input className="search_input" type="text" placeholder="search..."></input>
-
+                    <div className="search_input_wrapper">
+                        <input className="search_input" type="text" placeholder="search..."></input>
+                    </div>
+                    <button className="search_input_btn">
+                        <SearchIcon />
+                    </button>
                 </div>
-                
+
             </div>
         </div>
     );

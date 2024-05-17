@@ -2,7 +2,9 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import news1 from './news1.png'
+import image2 from "../slider/news2.png"
+import image1 from '../slider/news1.png'
+import image3 from '../slider/news3.png'
 
 const spanStyle = {
   padding: '20px',
@@ -15,19 +17,17 @@ const divStyle = {
   alignItems: 'center',
   justifyContent: 'center',
   backgroundSize: 'cover',
-  height: '400px'
+  height: '300px' 
 }
 const slideImages = [
   {
-    url: <img src={news1} alt="news1" />,
-    caption: 'Slide 1'
+    url:'https://th.bing.com/th/id/OIP.xM6l1AK5qR8H3VeqtaXAOAHaCv?rs=1&pid=ImgDetMain',
   },
   {
-    url: 'https://images.unsplash.com/photo-1506710507565-203b9f24669b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1536&q=80',
-    caption: 'Slide 2'
+    url:'https://4.bp.blogspot.com/-lCbr58OqiHI/WiAJHH8GeFI/AAAAAAAAEsE/uqjcRgbVfecSuEghsqlG-vU0i2MBs58jACLcBGAs/s1600/Agriexam.com%2BNews%2B....jpeg',
   },
   {
-    url: 'https://images.unsplash.com/photo-1536987333706-fc9adfb10d91?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1500&q=80',
+    url: 'https://th.bing.com/th/id/R.8f9343e84e15abf88eb5c27a3287e2d2?rik=L%2bA1AEnrb6iJdw&pid=ImgRaw&r=0',
     caption: 'Slide 3'
   },
 ];
@@ -36,10 +36,11 @@ const Slideshow = () => {
     return (
       <div className="slide-container">
         <Slide>
+          
          {slideImages.map((slideImage, index)=> (
             <div key={index}>
               <div style={{ ...divStyle, 'backgroundImage': `url(${slideImage.url})` }}>
-                <span style={spanStyle}>{slideImage.caption}</span>
+                
               </div>
             </div>
           ))} 
