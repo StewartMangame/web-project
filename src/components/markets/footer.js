@@ -2,10 +2,10 @@ import React from "react";
 import logo from "./logo.png";
 const Footer = () => {
   return (
-    <div className="pt-[7%]">
-      <div className="flex bg-[green] text-[white] pt-[1px] p-10px">
-        <div className="flex-grow: 1">
-          <a href="#" className="pt-[5%] pl-[22%]">
+    <div className="pt-[2%]">
+      <div className="flex bg-[green] text-[white]">
+        <div className="flex-grow: 1 pt-[1%] pl-[5%]">
+          <a href="#">
             {" "}
             <img
               src={logo}

@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 const Marketlist = () => {
   return (
     <div>
-      <div className="bg-[rgb(226,214,214)] grid grid-cols-[repeat(auto-fill,minmax(250px,280px))] auto-rows-auto justify-center gap-[30px] pt-[8%] pb-[0%] px-[16%]">
+      <div className="bg-[rgb(226,214,214)] grid grid-cols-[repeat(auto-fill,minmax(250px,280px))] auto-rows-auto justify-center gap-[30px] pt-[10%] pb-[0%] px-[16%]">
         <NavLink to="Admarc">
           <img
             src="https://www.future-agricultures.org/wp-content/uploads/2020/10/Melissa-Cooperman-IFPRI-Malawi-Trader-Feature.jpg"
@@ -36,10 +36,10 @@ const Marketlist = () => {
         </NavLink>
       </div>
 
-      <div className="bg-[rgb(226,214,214)] justify-center pl-[42%] pt-[5%] p-[2em]">
-        <div className="bg-[orange] border w-[200px] h-[50px] items-center rounded-[50%] border-solid border-[green]">
+      <div className="bg-[rgb(226,214,214)] justify-center pl-[42%] pt-[2%] p-[2em] pb-[1%]">
+        <div className="bg-[orange] border w-[200px] h-[60px] items-center rounded-[50%] border-solid border-[green]">
           <NavLink to="deliveryform">
-            <div className="text-[green] font-[bold]">
+            <div className="text-[green] font-[bold] pt-[9%]">
               <h1>SELL YOUR PRODUCTS</h1>
             </div>
           </NavLink>
