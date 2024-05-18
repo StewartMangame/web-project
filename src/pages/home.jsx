@@ -16,6 +16,11 @@ export default function Home() {
       </p>
       </div>
       <Slideshow/>
+      <div className='button'>
+      <button className='bt'><a href='https://times.mw/'> view more</a></button>
+      </div>
     </div>
+    
   )
 }
+

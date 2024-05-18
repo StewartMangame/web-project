@@ -2,9 +2,7 @@
 import React from 'react';
 import { Slide } from 'react-slideshow-image';
 import 'react-slideshow-image/dist/styles.css'
-import image2 from "../slider/news2.png"
-import image1 from '../slider/news1.png'
-import image3 from '../slider/news3.png'
+
 
 const spanStyle = {
   padding: '20px',
@@ -21,7 +19,7 @@ const divStyle = {
 }
 const slideImages = [
   {
-    url:'https://th.bing.com/th/id/OIP.xM6l1AK5qR8H3VeqtaXAOAHaCv?rs=1&pid=ImgDetMain',
+    url:'https://media.istockphoto.com/vectors/agriculture-banner-or-header-design-with-copyspace-vector-id1222250988?k=6&m=1222250988&s=170667a&w=0&h=XekhhQcITp0EE0RvgBhzRh0oBuMzsTVN8sry3m7U4lg=',
   },
   {
     url:'https://4.bp.blogspot.com/-lCbr58OqiHI/WiAJHH8GeFI/AAAAAAAAEsE/uqjcRgbVfecSuEghsqlG-vU0i2MBs58jACLcBGAs/s1600/Agriexam.com%2BNews%2B....jpeg',
