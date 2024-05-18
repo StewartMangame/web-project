@@ -18,7 +18,7 @@ const Footer = () => {
             </p>
           </a>
         </div>
-        <div className="flex-grow: 1 pl-[22%] pt-[4%]">
+        <div className="flex-grow: 1 pl-[22%] pt-[2%]">
           <h3 className="font-[bold]">Quick links</h3>
           <ul className="list-none">
             <li>
@@ -47,7 +47,7 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="flex-grow: 1 pl-[28%] pt-[4%]">
+        <div className="flex-grow: 1 pl-[28%] pt-[2%]">
           <h3>Contact Info.</h3>
           <p>
             Malawi My Farm,
